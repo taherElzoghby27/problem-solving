@@ -3,8 +3,6 @@ package problem.solving;
 import java.util.Scanner;
 
 public class LowestNumber {
-
-    //E - Lowest Number : https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E
     // E - Lowest Number :
     // https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E
     /*
