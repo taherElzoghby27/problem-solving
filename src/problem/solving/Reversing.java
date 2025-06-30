@@ -1,20 +1,31 @@
-package problem.solving;
+package com.mycompany.project_problem_solving;
 
 import java.util.Scanner;
 
-public class Reversing {
-    //F. Reversing : https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/F
+public class reversing {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
-        int[] array = new int[num];
-        for (int i = 0; i < num; i++) {
-            array[i] = input.nextInt();
+        int n = input.nextInt();
+        int arr[] = new int[n];
+        //for input 
+        for (int i = 0; i < n; i++) {
+            arr[i] = input.nextInt();
         }
-        for (int i = num-1; i >= 0; i--) {
-            System.out.print(array[i] + " ");
+        //for operations
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 0) {
+                for (int j = 0; j < i / 2; j++) {
+                    int temp = arr[j];
+                    arr[j] = arr[i - j - 1];
+                    arr[i - j - 1] = temp;
+                }
+            }
         }
-        System.out.println();
-    }
+        //for print
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
 
+    }
 }
