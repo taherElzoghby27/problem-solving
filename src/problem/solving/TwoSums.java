@@ -1,4 +1,4 @@
-package com.mycompany.project_problem_solving;
+package problem.solving;
 public class TwoSums {
 
     public static void main(String[] args) {

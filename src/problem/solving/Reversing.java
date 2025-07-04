@@ -1,8 +1,8 @@
-package com.mycompany.project_problem_solving;
+package problem.solving;
 
 import java.util.Scanner;
 
-public class reversing {
+public class Reversing {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

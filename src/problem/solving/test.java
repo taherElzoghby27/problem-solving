@@ -1,4 +1,4 @@
-package com.mycompany.project_problem_solving;
+package problem.solving;
 
 import java.util.ArrayList;
 import java.util.Arrays;
