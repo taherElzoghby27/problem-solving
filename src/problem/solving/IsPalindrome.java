@@ -3,8 +3,8 @@ package problem.solving;
 public class IsPalindrome {
 
     public static void main(String[] args) {
-        String s = "race a car";
-        System.out.println(isPalindrome1(s));
+        String s = "aa";
+        System.out.println(isPalindrome(s));
     }
 
     public static boolean isPalindrome(String s) {//string builder
@@ -14,11 +14,7 @@ public class IsPalindrome {
             return true;
         }
         int updatedSize = 0;
-        if (size % 2 == 0) {
-            updatedSize = size / 2;
-        } else {
-            updatedSize = (size / 2) - 1;
-        }
+        updatedSize = size / 2;
         if (updatedSize == 0) {
             updatedSize = 1;
         }
