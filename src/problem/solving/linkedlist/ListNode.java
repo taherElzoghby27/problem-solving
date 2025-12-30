@@ -4,6 +4,7 @@ public class ListNode {
 
     int val;
     ListNode next;
+    ListNode random;
 
     public ListNode() {
     }
@@ -16,4 +17,5 @@ public class ListNode {
         this.val = val;
         this.next = next;
     }
+
 }
